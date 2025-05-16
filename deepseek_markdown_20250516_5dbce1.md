@@ -1,0 +1,18 @@
+# AWS PHP User Registration System  
+A scalable web application with user authentication, built on AWS with PHP and MariaDB.  
+
+## ✨ Features  
+- **User Registration/Login**: PHP forms with server-side validation.  
+- **Multi-Subnet Architecture**:  
+  - Public subnets: EC2 instances (Apache/PHP).  
+  - Private subnet: MariaDB RDS for secure data isolation.  
+- **Scalability**: ALB + Auto Scaling Group (1–3 EC2 instances).  
+- **S3 Integration**: Hosts static assets (CSS, JS, images).  
+
+## 🛠️ Tech Stack  
+- **Frontend**: PHP, HTML, Bootstrap.  
+- **Backend**: MariaDB (RDS), PHP sessions.  
+- **Infrastructure**: AWS (VPC, EC2, RDS, S3, ALB, CloudWatch).  
+- **Testing**: Apache JMeter (load testing).  
+
+## 📂 Repository Structure  
